@@ -1,3 +1,4 @@
+/* eslint-disable */
 // https://github.com/filipesilva/angular-quickstart-lib/blob/master/inline-resources.js
 'use strict';
 
