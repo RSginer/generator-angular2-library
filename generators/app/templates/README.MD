@@ -60,7 +60,7 @@ Once your library is imported, you can use its components, directives and pipes 
  +```bash
  +$ npm run build:docs
  +```
- +This will generate a `docs` directory with all typescript documentation of your library
+ +This will generate a `docs` directory with all documentation of your library
  +
 ## Development
 
