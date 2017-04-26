@@ -4,7 +4,7 @@
   "scripts": {
     "build": "gulp build",
     "build:watch": "gulp",
-    "build:docs": "./node_modules/.bin/compodoc -p tsconfig.json -n <%= props.libraryName %> -d docs --hideGenerator",
+    "build:docs": "compodoc -p tsconfig.json -n <%= props.libraryName %> -d docs --hideGenerator",
     "lint": "tslint --type-check --project tsconfig.json src/**/*.ts",
     "test": "tsc && karma start"
   },
